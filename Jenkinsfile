@@ -2,7 +2,6 @@ pipeline {
     agent {
         label "demoAgent"
     }
-    
     stages {
         stage('git') {
             steps {
